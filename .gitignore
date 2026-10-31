@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+.venv-feast/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# MLflow files
+mlartifacts/
+mlflow.db
+
+# DVC internal cache
+.dvc/cache/
+.dvc/tmp/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db

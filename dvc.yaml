@@ -1,0 +1,10 @@
+﻿stages:
+  preprocess:
+    cmd: python -m src.pipeline
+    deps:
+      - src/pipeline.py
+      - data/raw.csv
+    outs:
+      - data/processed.csv
+      - data/train.csv
+      - data/test.csv

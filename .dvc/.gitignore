@@ -1,0 +1,19 @@
+# Python virtual environments
+.venv/
+.venv-feast/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# MLflow generated files
+mlartifacts/
+mlflow.db
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

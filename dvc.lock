@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python -m src.pipeline
+    deps:
+    - path: data/raw.csv
+      hash: md5
+      md5: 21d441a28bce4417276097df955afc50
+      size: 2928
+    - path: src/pipeline.py
+      hash: md5
+      md5: 76023768e14d11608a237dbf92eff85a
+      size: 2014
+    outs:
+    - path: data/processed.csv
+      hash: md5
+      md5: 56e79d1984d3b75d7bfde35c0eda45cf
+      size: 4482
+    - path: data/test.csv
+      hash: md5
+      md5: 0138f538dabf48c5493da4469f787bf4
+      size: 927
+    - path: data/train.csv
+      hash: md5
+      md5: 2b674e9ee85144376a3014e24895846f
+      size: 3648
